@@ -11,17 +11,17 @@
 <body>
   <header>
     <nav role="navigation">
-      <h1><a href="/">Restaurant Reviews</a></h1>
+      <h1 role="Page Title" ><a href="/">Restaurant Reviews</a></h1>
     </nav>
   </header>
 
   <main id="maincontent">
     <section id="map-container">
-      <div id="map"></div>
+      <div role="map" id="map"></div>
     </section>
     <section>
       <div class="filter-options">
-        <h2>Filter Results</h2>
+        <h2 role="Results">Filter Results</h2>
         <select id="neighborhoods-select" name="neighborhoods" label="choose neighborhood" onchange="updateRestaurants()">
           <option value="all">All Neighborhoods</option>
         </select>
@@ -29,7 +29,7 @@
           <option value="all">All Cuisines</option>
         </select>
       </div>
-      <ul id="restaurants-list"></ul>
+      <ul role="List of restaurants" id="restaurants-list"></ul>
     </section>
   </main>
 

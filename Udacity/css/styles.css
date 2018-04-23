@@ -7,9 +7,7 @@ body,td,th,p{
 	color: #333;
 	line-height: 1.5;
 }
-*{
-  outline:solid red 1px;
-}
+
 body {
 	background-color: #fdfdfd;
 	margin: 0;
